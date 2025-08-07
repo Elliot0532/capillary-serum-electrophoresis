@@ -23,6 +23,15 @@ conda create -n PatientResNet python=3.9
 conda activate PatientResNet
 pip install -r requirements.txt
 ```
+
+### Model Weights Download
+
+Due to file size limitations, the pre-trained model weights are not included in this repository. Please download them from the following links:
+
+- [ResNet34_singlemodal.pth](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) (81MB)
+- [ResNet34_multimodal.pth](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) (81MB)
+
+Place the downloaded files in the root directory of this repository.
 ## Running Code
 
 ### Demo/Inference
